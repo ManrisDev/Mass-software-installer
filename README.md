@@ -34,5 +34,8 @@
 
 1. Откройте PowerShell **от имени администратора**
 2. Разрешите выполнение скриптов:
-   ```powershell
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+3. Перейдите в папку со скриптом и запустите:
+```powershell
+.\Mass-Installer.ps1
